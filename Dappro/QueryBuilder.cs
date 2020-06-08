@@ -6,6 +6,7 @@ namespace Dappro
 {
     public class QueryBuilder<TModel> : Query<TModel>
     {
+
         public QueryBuilder(string connectionString)
         {
             

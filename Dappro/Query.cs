@@ -5,6 +5,10 @@ namespace Dappro
 {
     public abstract class Query<TModel> where TModel : IDbType, new()
     {
+        public Query()
+        {
+            
+        }
         public virtual List<TModel> GetAll()
         {
             return new List<TModel>();
